@@ -5,7 +5,7 @@ window.onload=function(){
 
     // navSignInBtn.addEventListener('click',function(){
     //     navLoginModel.style.visibility="visible"
-    // });
+    // })
 
     navSignInBtn.addEventListener('mouseover',function(){
         navLoginModel.style.visibility="visible";
