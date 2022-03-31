@@ -5,7 +5,7 @@ window.onload=function(){
 
     // navSignInBtn.addEventListener('click',function(){
     //     navLoginModel.style.visibility="visible"
-    // })
+    // });
 
     navSignInBtn.addEventListener('mouseover',function(){
         navLoginModel.style.visibility="visible";
@@ -49,5 +49,20 @@ window.onload=function(){
     document.getElementById('prod4').addEventListener('mouseout',function(){
         document.getElementById('addtobag4').style.visibility="hidden";
     });
+
+    // Mobile Navigation Script
+
+
+    var handburger=document.getElementById('handburger');
+    var navSideBar=document.getElementById('nav_sidebar');
+    var navClose=document.getElementById('nav_close');
+
+
+    handburger.addEventListener('click',function(){
+        navSideBar.style.left="0px";
+    })
+    navClose.addEventListener('click',function(){
+        navSideBar.style.left="-250px";
+    })
     
 }
